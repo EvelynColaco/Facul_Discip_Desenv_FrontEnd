@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.caixa {
+    width: 100px;
+    height: 100px;
+    background-color: #0b7070;
+    position: relative;
+    animation: moverCaixa 3s infinite;
+}
+
+@keyframes moverCaixa {
+    0% {
+        left: 0%;
+    }
+    50% {
+        left: 300px;
+    }
+    100% {
+        left: 0%;
+    }
+}
