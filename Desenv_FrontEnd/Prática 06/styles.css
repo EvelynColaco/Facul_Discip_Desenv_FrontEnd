@@ -1,0 +1,45 @@
+body {
+    /* Define a fonte usada no texto como Arial ou, se não disponível, uma fonte sem serifa genérica */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* Remove a margem padrão ao redor da página */
+    margin: 0;
+    /* Adiciona um preenchimento de 20 pixels ao redor do conteúdo */
+    padding: 20px;
+    /* Define a cor de fundo da página para um cinza claro */
+    background-color: #f4f4f4;
+}
+
+.container {
+    /* Define a largura máxima do contêiner como 800 pixels */
+    max-width: 800px;
+    /* Centraliza o contêiner horizontalmente */
+    margin: 0 auto;
+    /* Define a cor de fundo do contêiner para branco */
+    background-color: white;
+    /* Adiciona um preenchimento de 20 pixels ao redor do conteúdo */
+    padding: 20px;
+    /* Adiciona cantos arredondados com um raio de 8 pixels */
+    border-radius: 8px;
+    /* Adiciona uma sombra ao redor do contêiner */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    font-size: 28px;
+    margin-top: 0;
+    color: green;
+}
+
+.lista_nao_ordenada {
+    list-style-type: disc;
+}
+
+li {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
