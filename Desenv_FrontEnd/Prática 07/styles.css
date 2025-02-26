@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif; /* Fonte do texto */
+    background-color: #f4f4f4; /* Cor de fundo */
+    padding: 20px; /* Espaçamento ao redor */
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid #000000;
+    width: 50%;  /* Define uma largura para a tabela */
+    margin: 20px auto; /* Centraliza na página */
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #000000;
+    text-align: center;
+}
+
+th {
+    background-color: #d3d3d3;
+    font-weight: bold;
+    border: 1px solid #000000;
+    padding: 10px;
+    text-align: center;
+}
